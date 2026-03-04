@@ -1,0 +1,9 @@
+{
+    "model_name":"bert-base-uncased",
+    "test_size":0.2,
+    "random_state":42,
+    "batch_size":16,
+    "epochs":2,
+    "learning_rate":3e-5,
+    "max_length":256
+}
