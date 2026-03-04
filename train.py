@@ -12,16 +12,6 @@ import os
 logging.basicConfig(level=logging.INFO, format='%(asctime)s--%(levelname)s--%(message)s')
 logger = logging.getLogger(__name__)
 
-config = {
-    "model_name":"bert-base-uncased",
-    "test_size":0.2,
-    "random_state":42,
-    "batch_size":16,
-    "epochs":2,
-    "learning_rate":3e-5,
-    "max_length":256
-}
-
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print("Using device:", device)
 
@@ -105,3 +95,4 @@ def train_model():
 
 if __name__ == "__main__":
     train_model()
+
