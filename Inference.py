@@ -10,7 +10,7 @@ model.eval()
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 model.to(device)
 
-review = "As predictable as a plot twist, this movie was a masterclass in being mediocre - i loved hating it, but also kinda didnt"
+review = ""
 inputs = tokenizer(review, return_tensors="pt", truncation=True, padding=True, max_length=128)
 inputs = {k: v.to(device) for k, v in inputs.items()}
 
