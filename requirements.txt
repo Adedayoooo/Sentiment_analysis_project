@@ -10,3 +10,4 @@ python-multipart==0.0.6
 pip>=23.3
 setuptools>=70.0
 wheel>=0.43
+tokenizers==0.15.2
