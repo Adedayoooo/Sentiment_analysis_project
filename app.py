@@ -6,7 +6,7 @@ import torch.nn.functional as F
 
 app = FastAPI()
 
-model_path = "results"
+model_path = "Adedayo2000/sentiment-model"
 
 tokenizer = AutoTokenizer.from_pretrained(model_path)
 model = AutoModelForSequenceClassification.from_pretrained(model_path)
