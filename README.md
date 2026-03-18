@@ -1,4 +1,4 @@
-��# Sentiment Analysis API
+# Sentiment Analysis API
 
 A production-ready REST API for sentiment analysis using BERT fine-tuned on the IMDB dataset. Classifies text as POSITIVE or NEGATIVE with confidence scores.
 
