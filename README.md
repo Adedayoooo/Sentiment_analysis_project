@@ -465,7 +465,7 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 **Adedayo Adebayo**
 
 - Hugging Face: [@Adedayo2000](https://huggingface.co/Adedayo2000)
-- GitHub: [@Adedayo2000](https://github.com/Adedayo2000)
+- GitHub: [@Adedayoooo](https://github.com/Adedayoooo)
 - LinkedIn: https://www.linkedin.com/in/adedayo-adebayo-64b23226b
 
 ---
